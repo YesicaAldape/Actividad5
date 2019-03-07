@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>CS13304</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+  	<param-name>tema</param-name>
+  	<param-value>A01 - JSP Standard Tag Libraries</param-value>
+  </context-param>
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <page-encoding>UTF-8</page-encoding>
+      <include-prelude>/WEB-INF/includes/TagLibs.jsp</include-prelude>
+    </jsp-property-group>
+  </jsp-config>
+
+</web-app>
