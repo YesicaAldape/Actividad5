@@ -34,10 +34,7 @@ public class AdminArchivos extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		Locale locale = request.getLocale();
-		locale = Locale.ENGLISH;
-		ResourceBundle bundle = ResourceBundle.getBundle("me.jmll.i18n.app", locale);
-		
+				
 		// 4(a) Obten el atributo "errores" de la request 
 		// y asígnalo una vez más al request
 		request.setAttribute("errores", request.getAttribute("errores"));
