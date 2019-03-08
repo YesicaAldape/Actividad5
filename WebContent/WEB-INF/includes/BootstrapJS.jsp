@@ -2,7 +2,7 @@
 ================================================== -->
 <!-- JQuery library -->
 <%-- 1(a) Incluya recurso de JQuery para su version 1.11.3 de un CDN --%>
-<%-- Rercurso <script></script>  https://code.jquery.com/jquery/ --%>
+<%-- Rercurso <script></script>--%>
 
 <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
