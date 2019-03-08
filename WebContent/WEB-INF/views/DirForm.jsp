@@ -57,6 +57,7 @@
               	</li>
               <!-- /.menu de browse/explorar -->
               <!-- menu de lenguaje -->
+              
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" 
                 role="button" aria-haspopup="true" aria-expanded="false"> 
@@ -66,12 +67,12 @@
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                 
-                <%-- 4(d) crear los links para el cambio de idioma con el param locale = es o en --%>
-                  <li><a href="${requestScope.realURI}">
+                <%-- 4(d) crear los links para el cambio de idioma con el param locale = es o en  ?param=es"--%>
+                  <li><a href="${requestScope.realURI}?locale=es">
                    		<%-- escribe aquí tu tag fmt:message para el lenguaje español --%>
                   		<fmt:message key ="app.language.spanish" bundle="${appBundle }" />
                   		</a>
-                  <li><a href="${requestScope.realURI}">
+                  <li><a href="${requestScope.realURI}?locale=en">
                   		<%-- escribe aquí tu tag fmt:message para el lenguaje ingles --%>
                    		<fmt:message key ="app.language.english" bundle="${appBundle }" />
                   		</a>
